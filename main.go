@@ -2,9 +2,8 @@ package main
  
 import (
     "fmt"
-    "io/ioutil"
-    "log"
     "net/http"
+    "encoding/json"
 )
 
 type response1 struct {
